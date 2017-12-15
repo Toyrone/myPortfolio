@@ -178,6 +178,9 @@ body {
 	height: auto;
 	border-radius: 10px;
 }
+.link-mobile {
+	display: none;
+}
 .content-header {
 	display: flex;
 	justify-content: flex-start;
@@ -243,4 +246,65 @@ a.btn {
 	font-size: .75rem;
 	font-weight: bold;
 	color: rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-device-width: 600px) and (min-device-width: 320px) {
+	.main-nav {
+	    box-sizing: border-box;
+	    height: 90%;
+	    justify-content: flex-start;
+	    left: 20px;
+	    top: 30px;
+	    position: relative;
+	    width: 100%;
+	}
+	.main-nav .social-link {
+		display: none;
+	}
+	.desc--ongoing {
+	    padding-top: 20px;
+	    color: white;
+	    width: auto;
+	    line-height: 1.6;
+	}
+	.main-content {
+	    display: block;
+	    margin-left: 0; 
+	    height: 90%;
+	    padding-top: 0vh;
+	    width: 100%;
+	}
+	.content-item {
+	    color: rgba(0, 0, 0, .67);
+	     padding-left: 0px; 
+	}
+	.content-wrap {
+	    width: auto;
+	} 
+	.alertclinic {
+		background-image: url(../img/PlayStore_Feature_Graphic.png);
+		background-position: left center;
+		background-repeat: no-repeat;
+		height: 50vh;
+	}
+	.heit {
+	    background-image: url(../img/HEIT Website_Today.png);
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    height: 50vh;
+	}
+	.bitcoin {
+	    background-image: url(../img/bitcoin.png);
+	    background-position: bottom center;
+	    background-repeat: no-repeat;
+	    height: 50vh;
+	}
+	.link-mobile {
+		color: black!important;
+		display: block;
+	}
+	.desc {
+	    font-size: .8rem;
+	    padding-top: 5px;
+	    font-weight: 600;
+	}
 }
