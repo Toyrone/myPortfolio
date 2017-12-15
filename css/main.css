@@ -15,7 +15,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	padding-top: 10vh;
+	/*padding-top: 10vh;*/
 }
 .intro-name {
 	font-size: 4rem;
@@ -170,7 +170,7 @@ body {
 .hello {
 	color: #222;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 32px;
 	padding-top: 20px;
 }
 .avatar {
@@ -202,12 +202,41 @@ body {
 .line {
 	text-decoration: underline;
 }
+.desc--ongoing {
+	padding-top: 20px;
+	color: white;
+	width: 280px;
+	line-height: 1.6;
+
+}
+.alertclinic {
+	background-image: url('../img/PlayStore_Feature_Graphic.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 50vh;	
+}
+.heit {
+	background-image: url('../img/HEIT Website_Today.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 50vh;
+	
+}
+.bitcoin {
+	background-image: url('../img/bitcoin.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+a.btn {
+	margin-top: 30px;
+}
 .red {
 	color: #F1684E;
 }
 .footer {
 	position: absolute;
-	bottom: -100px;
+	bottom: -80px;
 	right: 48%;
 	margin: 0 auto;
 	text-align: center;
